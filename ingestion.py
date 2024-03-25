@@ -20,7 +20,7 @@ INDEX_NAME = "langchain-doc-index"
 
 def ingest_docs():
     loader = ReadTheDocsLoader(
-        "langchain-docs/api.python.langchain.com/en/latest/chains"
+        path = "langchain-docs/api.python.langchain.com/en/latest"
     )
 
     raw_documents = loader.load()
