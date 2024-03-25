@@ -8,14 +8,12 @@ This is a web application is using a Pinecone as a vectorsotre and answers quest
 
 
 ![Logo](https://github.com/emarco177/documentation-helper/blob/main/static/banner.gif)
-[![udemy](https://img.shields.io/badge/LangChain%20Udemy%20Course-%2412.99-green)](https://www.udemy.com/course/langchain/?couponCode=LANGCHAINCD8C0B4060)
 
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
 `PINECONE_API_KEY`
-`PINECONE_ENVIRONMENT_REGION`
 `OPENAI_API_KEY`
 
 ## Run Locally
